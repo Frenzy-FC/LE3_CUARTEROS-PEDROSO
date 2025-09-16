@@ -29,7 +29,7 @@ int main() {
         if (num2 != 0)
             printf("%.0f / %.0f = %.2f\n", num1, num2, num1 / num2);
         else
-            printf("Error (divide by zero)\n");
+            printf(" ^_^ no number 0\n");
 }
 
     return 0;
