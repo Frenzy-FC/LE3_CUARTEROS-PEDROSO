@@ -6,7 +6,7 @@ int main() {
     float num1 = 0.0f;
     float num2 = 0.0f;
 
-    printf("Enter Full Name: ");
+    printf("Enter Complete Name: ");
     fgets(Fname, sizeof(Fname), stdin);
     printf("Enter Section: ");
     fgets(section, sizeof(section), stdin);
@@ -16,7 +16,7 @@ int main() {
     printf("Enter Number 2: ");
     scanf("%f", &num2);
 
-    printf(" \nStudent Calculator ");
+    printf(" \n Student Calculator ");
     printf("\nStudent Name: %s", Fname);
     printf("Section: %s", section);
     printf(" Results: \n");
